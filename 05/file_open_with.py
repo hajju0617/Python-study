@@ -1,0 +1,6 @@
+import os
+
+os.chdir("C:/Python-study/05")
+
+with open("python_file_2.txt", "w", encoding="utf-8") as file:
+    file.write("with 키워드를 사용하면 with 구문이 끝날때 자동으로 파일이 닫힘.")
