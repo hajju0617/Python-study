@@ -7,5 +7,6 @@ print("list(reversed(list_a)) : ", list(list_a_reversed))
 print()
 
 print("reversed()와 반복문")
+print("for i in reversed(list_a):")
 for i in reversed(list_a):
     print("-", i)

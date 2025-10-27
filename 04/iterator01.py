@@ -8,3 +8,8 @@ print("세 번째 : ", next(reversed_num))
 print("네 번째 : ", next(reversed_num))
 print("다섯 번째 : ", next(reversed_num))
 print("여섯 번째 : ", next(reversed_num))
+
+print('----')
+reversed_num = reversed(numbers)
+for i in reversed_num:
+    print(f'i = {i}')
